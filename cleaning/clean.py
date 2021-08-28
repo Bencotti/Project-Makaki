@@ -1,8 +1,8 @@
 import pandas as pd
 import json
 import googlemaps
-gmaps = googlemaps.Client(key='AIzaSyCfcgDAmwfiLYeCj0xoR9QbjkY__vbW1ss')
-# google maps api: AIzaSyCfcgDAmwfiLYeCj0xoR9QbjkY__vbW1ss
+gmaps = googlemaps.Client(key='---s')
+# google maps api: ---
 
 def is_Singapore(lat, long):
     geocode_result = gmaps.reverse_geocode((lat,long))
